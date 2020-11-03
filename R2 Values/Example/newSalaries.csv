@@ -1,0 +1,31 @@
+ID,title,titleLevel,seniority,point,salary
+1,Worker,1,5,70,2250
+2,secretary,2,5,70,2500
+3,assistant expert,3,5,70,3000
+4,expert,4,5,70,4000
+5,project manager,5,5,70,5500
+6,chef,6,5,70,7500
+7,manager,7,5,70,10000
+8,director,8,5,70,15000
+9,C-level,9,5,70,25000
+10,CEO,10,5,70,50000
+11,worker,1,7,99,2000
+12,secretary,2,7,9,2500
+13,assistant expert,3,7,62,4000
+14,expert,4,4,38,3000
+15,project manager,5,1,80,5000
+16,chef,6,2,35,5000
+17,manager,7,8,99,12000
+18,director,8,4,58,11000
+19,C-level,9,2,20,15000
+20,CEO,10,4,42,22000
+21,worker,1,8,11,2200
+22,secretary,2,2,53,2200
+23,assistant expert,3,8,50,2800
+24,expert,4,9,91,6000
+25,project manager,5,9,71,5400
+26,chef,6,1,2,4000
+27,manager,7,10,81,12000
+28,director,8,10,38,10000
+29,C-level,9,1,50,15000
+30,CEO,10,9,83,60000
