@@ -7,11 +7,10 @@
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Sequential,load_model
 from tensorflow.keras.layers import Dense
 import seaborn as sbn
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-
 
 datas = pd.read_excel('BicyclesPrices.xlsx')
 
@@ -60,8 +59,14 @@ print("Mean Absolute Error: ",mean_absolute_error(DF_pred['Price Real'], DF_pred
 print("Mean Squared Error: ",mean_squared_error(DF_pred['Price Real'], DF_pred['Price Predict']))
 
 
+## Save model
+model.save('Bicycle_Model.h5')
 
+BicycleModel = load_model('Bicycle_Model.h5')
 
+values = [[1751,1750]]
+values_scaled = scaler.transform(values)
+BicycleModel.predict(values_scaled)
 
 
 
