@@ -48,7 +48,6 @@ y_pred = classifier.predict(X_test)
 # After PCA
 y_pred2 = classifier2.predict(X_test2)
 
-
 # Result
 
 # Actual / Before PCA
